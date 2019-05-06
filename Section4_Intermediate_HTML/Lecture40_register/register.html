@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Exercise</title>
+</head>
+<body>
+  <h1>Register</h1>
+  <form action="http://wikipedia.org" method="GET">
+    <label for="first">First Name: </label>
+    <input name="first" id="first" type="text" placeholder="John" required="true">
+    <label for="last">Last Name: </label>
+    <input name="last" id="last"type="text" placeholder="Doe" required="true">
+
+    <div>
+      <label for="male">Male</label>
+      <input id="male" name="gender" type="radio" value="male">
+      <label id="female">Female</label>
+      <input name="gender" type="radio" value="female">
+      <label id="other">Other</label>
+      <input name="gender" type="radio" value="other">
+    </div>
+
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="your email" required>
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" placeholder="password" pattern=".{5,10}" required title="Password must be 5 to 10 characters">
+    </div>
+
+    <div>
+      <label>Birthday:
+        <select name="month">
+          <option value=0>Month</option>
+          <option value=1>Jan</option>
+          <option value=2>Feb</option>
+          <option value=3>Mar</option>
+        </select>
+        <select name="day">
+          <option>Day</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+        </select>
+        <select name="year">
+          <option>Year</option>
+          <option>2017</option>
+          <option>2018</option>
+          <option>2019</option>
+        </select>
+      </label>
+    </div>
+
+    <div>
+      <label for="agreed">I agree to the terms and conditions:</label>
+      <input id="agreed" type="checkbox" name="agreed">
+    </div>
+
+    <input type="submit">
+
+
+
+  </form>
+
+</body>
+</html>
+
+<!--
+NOTES:
+  name  == Name of the variable passed in the query string (when submit button clicked)
+  value == The value of the 'name' variable.
+  id    == The <label for="this_one"  will target input with id="this_one"
+
+
+ -->

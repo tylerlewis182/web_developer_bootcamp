@@ -1,0 +1,15 @@
+h1 {
+  color: lightslategray;
+}
+
+h2 {
+  color: #778899;
+}
+
+h3 {
+  color: rgb(119,136,153);
+}
+
+h4 {
+  color: rgba(119,136,153, 0.3);
+}

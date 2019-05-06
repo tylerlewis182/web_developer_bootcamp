@@ -1,0 +1,21 @@
+/*selector {
+  property: value;
+}
+
+NOTE:
+ - Can only have 1 id in an html file.
+ - Can have multiple classes in an html file.
+*/
+
+/* Element Selector */
+#id_selector
+{
+  color: red;
+}
+
+.completed
+{
+  text-decoration: line-through;
+}
+
+

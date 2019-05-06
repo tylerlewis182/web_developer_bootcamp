@@ -1,0 +1,28 @@
+body {
+  /* Automatically tiled vertically and horizontally */
+  /*background: url(http://images.all-free-download.com/images/graphicthumb/blue_abstract_background_310971.jpg);*/
+
+  /* Prevent the automatic tiling effect */
+  /*background: url(http://images.all-free-download.com/images/graphicthumb/blue_abstract_background_310971.jpg);
+  background-repeat: no-repeat;*/
+
+  /* Stretch to cover entire background */
+  background: url(http://images.all-free-download.com/images/graphicthumb/blue_abstract_background_310971.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+h1 {
+  color: coral;
+  background: pink;
+}
+
+h4 {
+  background: limegreen;
+}
+
+ul {
+  /*background: border-width style color;*/
+  background: 8px solid red;
+}

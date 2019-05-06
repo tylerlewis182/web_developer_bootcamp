@@ -1,0 +1,22 @@
+h1 {
+  font-family: Raleway;
+  font-weight: 500;
+  margin-left: 1.66%;
+
+  text-transform: uppercase;
+  border-bottom: 3px solid red;
+  width: 39%;
+}
+
+img {
+  width: 30%; /* set each image to be 30% of parent element (body) width */
+  float: left; /* stack (n+1)th image left of (n)th image */
+
+  /*
+  We want 3 images per row, so we will have 10% of parent element (body)
+  width left to be used as margin. Dividing the 10% evenly into 6 parts yields
+  1.66%
+  */
+  margin: 1.66%;
+
+}

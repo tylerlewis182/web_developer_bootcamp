@@ -1,0 +1,15 @@
+/* CSS General Rule:
+
+selector
+{
+  property: value;
+  anotherProperty: anotherValue;
+}
+
+*/
+
+/* all 'h3' elements green */
+h3
+{
+  color: green;
+}

@@ -1,0 +1,26 @@
+p {
+/* Content */
+width: 80%;
+
+/* Border */
+border: 2px solid blue;
+
+/* Padding */
+padding: 10px; /* Adds 10px padding top, bottom, left, and right. */
+
+/*
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 30px;
+padding-left: 40px;
+*/
+
+/* Shorthand way: */
+/* padding: top, right, bottom, left */
+
+/* ...or the other shorthand way */
+/* padding: top_and_bottom, left_and_right;
+
+/* Margin */
+margin: 0 auto 0 auto;
+}
