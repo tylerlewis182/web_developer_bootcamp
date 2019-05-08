@@ -1,0 +1,6 @@
+{
+  "cmd": ["/Users/ty/anaconda3/envs/nodejs/bin/node", "$file"],
+  "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.js",
+  "quiet": false
+}

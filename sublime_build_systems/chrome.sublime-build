@@ -1,0 +1,16 @@
+{
+    "cmd": ["open", "-a", "Google Chrome", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": false,
+}
+
+
+/* Working Backup 1:
+
+{
+    "cmd": ["open", "-a", "Google Chrome", "$file"],
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "quiet": false,
+}
+
+*/
